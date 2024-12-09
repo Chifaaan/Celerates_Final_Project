@@ -1,7 +1,7 @@
 pandas == 2.2.3
 numpy==2.0.2
 streamlit == 1.39.0
-stremalit-extras == 0.5.0
+streamlit-extras == 0.5.0
 scikit-learn ==1.5.2
 langchain == 0.3.9
 langchain-google-genai == 2.0.6

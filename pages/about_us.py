@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(
-    page_title="Celerates's Group 9",
+    page_title="Celerates's Group 5",
     layout="wide",
     initial_sidebar_state="expanded",
     page_icon="icons/smart_toy.svg")
@@ -57,7 +57,7 @@ columns_data = [
 st.markdown("<h1 style='text-align: center;'>Meet Our Team</h1>", unsafe_allow_html=True)
 st.caption("<i style='text-align: center;'>This group is a powerhouse of ambitious students from diverse universities, united by a shared passion for excellence and a relentless drive to conquer every challenge that comes their way! Brought together by the visionary leadership of Ceretates, this team is on a mission to dominate the world of Data Science, one obstacle at a time.</i>", unsafe_allow_html=True)
 add_vertical_space(5)
-st.subheader("Group 9 of Celerates's Data Science Track")
+st.subheader("Group 5 of Celerates's Data Science Track")
 
 
 

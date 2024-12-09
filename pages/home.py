@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Celerates's Group 9",
+    page_title="Celerates's Group 5",
     layout="centered",
     initial_sidebar_state="expanded",
     page_icon="icons/smart_toy.svg")
@@ -10,7 +10,7 @@ data_source = 'https://drive.google.com/drive/folders/1N9Trq6S8WoboCGiyi7dHoeXu4
 welcome = ''' This app proudly showcases our teamwork and the power of machine learning through a **Coffee Shop Transaction** dashboard. You can access the Dataset [here](%s)
 
  🎉Coffee Shop Transaction Dataset, brought to life by the talented\n
-:green-background[Team Project 9 from the Celerates Data Science Track], under the expert guidance of ***Mentor Rusnanda Farhan***. 🌟
+:green-background[Team Project 5 from the Celerates Data Science Track], under the expert guidance of ***Mentor Rusnanda Farhan***. 🌟
 
 Dive into the visualization of insights, where every click unravels the journey of coffeeshop analysis. Whether you're a data enthusiast, a curious learner, or just exploring, this space is built for discovery and inspiration.'''
 
