@@ -1,0 +1,9 @@
+Method,Features Type,n_clusters,linkage,Silhouette_score
+Agglomerative Clustering,All Selected Features,3,ward,0.6371584157129464
+Agglomerative Clustering,All Selected Features,3,complete,0.6712280709581495
+Agglomerative Clustering,All Selected Features,3,average,0.6712280709581495
+Agglomerative Clustering,All Selected Features,3,single,0.3412560862042769
+Agglomerative Clustering,Selected Best Feature,3,ward,0.6374075381198006
+Agglomerative Clustering,Selected Best Feature,3,complete,0.6715094002655067
+Agglomerative Clustering,Selected Best Feature,3,average,0.6715094002655067
+Agglomerative Clustering,Selected Best Feature,3,single,0.34142763847863805

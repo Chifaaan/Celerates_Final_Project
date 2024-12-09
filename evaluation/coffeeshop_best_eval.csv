@@ -1,0 +1,4 @@
+Method,Max_Silhouette_Score
+KMeans,0.6795102516657692
+Agglomerative Clustering,0.6715094002655067
+DBSCAN,0.30118791405664713

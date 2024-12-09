@@ -1,0 +1,751 @@
+product_name,unit_price,total_qty,city,discount%,cluster
+Espresso,25000,3,Jakarta,20,Cheap
+Cappuccino,30000,1,Bandung,5,Standart
+Latte,35000,5,Yogyakarta,15,Standart
+Espresso,25000,1,Jakarta,20,Cheap
+Sandwich,45000,5,Bandung,0,Premium
+Americano,20000,5,Yogyakarta,15,Cheap
+Tea,15000,5,Bandung,15,Cheap
+Cappuccino,30000,4,Jakarta,10,Standart
+Cappuccino,30000,2,Bekasi,15,Standart
+Latte,35000,4,Jakarta,20,Standart
+Flat White,30000,5,Bekasi,15,Standart
+Tea,15000,5,Jakarta,5,Cheap
+Latte,35000,5,Tangerang Selatan,10,Standart
+Flat White,30000,5,Yogyakarta,15,Standart
+Espresso,25000,2,Jakarta,10,Cheap
+Americano,20000,1,Jakarta,15,Cheap
+Tea,15000,3,Bekasi,0,Cheap
+Flat White,30000,2,Bekasi,0,Standart
+Latte,35000,5,Bekasi,0,Standart
+Sandwich,45000,2,Bandung,20,Premium
+Macchiato,32000,3,Tangerang Selatan,20,Standart
+Americano,20000,3,Yogyakarta,5,Cheap
+Espresso,25000,3,Bandung,10,Cheap
+Latte,35000,2,Bekasi,10,Standart
+Americano,20000,4,Bekasi,10,Cheap
+Cappuccino,30000,3,Tangerang Selatan,20,Standart
+Sandwich,45000,5,Bandung,15,Premium
+Macchiato,32000,5,Yogyakarta,15,Standart
+Americano,20000,2,Bekasi,0,Cheap
+Latte,35000,1,Tangerang Selatan,10,Standart
+Cappuccino,30000,4,Bandung,20,Standart
+Macchiato,32000,4,Jakarta,0,Standart
+Sandwich,45000,3,Tangerang Selatan,20,Premium
+Latte,35000,5,Jakarta,20,Standart
+Latte,35000,3,Bekasi,10,Standart
+Tea,15000,1,Bandung,15,Cheap
+Cappuccino,30000,5,Yogyakarta,10,Standart
+Sandwich,45000,5,Bekasi,20,Premium
+Flat White,30000,2,Bandung,0,Standart
+Espresso,25000,5,Yogyakarta,20,Cheap
+Espresso,25000,1,Tangerang Selatan,5,Cheap
+Americano,20000,1,Bekasi,15,Cheap
+Latte,35000,1,Yogyakarta,15,Standart
+Sandwich,45000,2,Jakarta,5,Premium
+Sandwich,45000,2,Tangerang Selatan,20,Premium
+Cake,50000,4,Yogyakarta,10,Premium
+Americano,20000,3,Yogyakarta,10,Cheap
+Tea,15000,5,Bekasi,0,Cheap
+Americano,20000,2,Jakarta,20,Cheap
+Espresso,25000,5,Bekasi,5,Cheap
+Cake,50000,2,Bandung,5,Premium
+Espresso,25000,2,Jakarta,5,Cheap
+Flat White,30000,1,Jakarta,0,Standart
+Mocha,40000,4,Bandung,15,Premium
+Cappuccino,30000,5,Yogyakarta,15,Standart
+Americano,20000,4,Tangerang Selatan,5,Cheap
+Latte,35000,1,Bandung,20,Standart
+Flat White,30000,4,Tangerang Selatan,20,Standart
+Espresso,25000,1,Tangerang Selatan,5,Cheap
+Flat White,30000,1,Tangerang Selatan,15,Standart
+Americano,20000,5,Bandung,10,Cheap
+Macchiato,32000,2,Bandung,0,Standart
+Americano,20000,1,Tangerang Selatan,10,Cheap
+Latte,35000,1,Yogyakarta,5,Standart
+Espresso,25000,1,Yogyakarta,15,Cheap
+Macchiato,32000,4,Bandung,0,Standart
+Macchiato,32000,1,Bandung,20,Standart
+Espresso,25000,4,Tangerang Selatan,20,Cheap
+Mocha,40000,4,Tangerang Selatan,0,Premium
+Tea,15000,2,Yogyakarta,0,Cheap
+Americano,20000,1,Bekasi,20,Cheap
+Espresso,25000,3,Yogyakarta,20,Cheap
+Cake,50000,4,Jakarta,5,Premium
+Cappuccino,30000,1,Yogyakarta,0,Standart
+Cappuccino,30000,1,Jakarta,15,Standart
+Americano,20000,4,Jakarta,5,Cheap
+Americano,20000,5,Yogyakarta,15,Cheap
+Cake,50000,1,Jakarta,20,Premium
+Cake,50000,5,Yogyakarta,10,Premium
+Americano,20000,3,Bekasi,20,Cheap
+Macchiato,32000,2,Bekasi,0,Standart
+Tea,15000,3,Bekasi,5,Cheap
+Tea,15000,5,Jakarta,0,Cheap
+Latte,35000,5,Jakarta,0,Standart
+Mocha,40000,2,Yogyakarta,5,Premium
+Americano,20000,3,Jakarta,0,Cheap
+Tea,15000,5,Bandung,15,Cheap
+Cake,50000,5,Bekasi,20,Premium
+Mocha,40000,1,Yogyakarta,15,Premium
+Latte,35000,1,Bekasi,5,Standart
+Mocha,40000,3,Bandung,20,Premium
+Flat White,30000,2,Bandung,15,Standart
+Sandwich,45000,4,Bekasi,5,Premium
+Latte,35000,4,Jakarta,15,Standart
+Espresso,25000,3,Jakarta,0,Cheap
+Cappuccino,30000,4,Bekasi,0,Standart
+Sandwich,45000,1,Tangerang Selatan,0,Premium
+Cappuccino,30000,5,Jakarta,20,Standart
+Cake,50000,5,Bekasi,0,Premium
+Cappuccino,30000,1,Tangerang Selatan,0,Standart
+Espresso,25000,3,Bekasi,15,Cheap
+Latte,35000,3,Bandung,15,Standart
+Cake,50000,2,Tangerang Selatan,10,Premium
+Cappuccino,30000,4,Bandung,20,Standart
+Flat White,30000,4,Bandung,5,Standart
+Mocha,40000,2,Bandung,5,Premium
+Macchiato,32000,1,Jakarta,0,Standart
+Americano,20000,4,Bandung,10,Cheap
+Americano,20000,2,Bekasi,20,Cheap
+Macchiato,32000,3,Bandung,5,Standart
+Mocha,40000,3,Jakarta,0,Premium
+Macchiato,32000,5,Yogyakarta,0,Standart
+Latte,35000,3,Jakarta,15,Standart
+Mocha,40000,1,Yogyakarta,20,Premium
+Macchiato,32000,3,Yogyakarta,15,Standart
+Cake,50000,5,Tangerang Selatan,10,Premium
+Cake,50000,2,Tangerang Selatan,5,Premium
+Macchiato,32000,1,Jakarta,10,Standart
+Americano,20000,3,Yogyakarta,15,Cheap
+Flat White,30000,5,Jakarta,0,Standart
+Mocha,40000,5,Jakarta,5,Premium
+Flat White,30000,4,Tangerang Selatan,10,Standart
+Sandwich,45000,2,Bekasi,15,Premium
+Macchiato,32000,2,Tangerang Selatan,5,Standart
+Mocha,40000,4,Yogyakarta,5,Premium
+Mocha,40000,3,Jakarta,0,Premium
+Cake,50000,5,Tangerang Selatan,5,Premium
+Tea,15000,4,Bekasi,5,Cheap
+Sandwich,45000,4,Bandung,10,Premium
+Mocha,40000,5,Jakarta,20,Premium
+Flat White,30000,1,Yogyakarta,0,Standart
+Americano,20000,2,Bekasi,15,Cheap
+Espresso,25000,2,Jakarta,0,Cheap
+Latte,35000,4,Yogyakarta,10,Standart
+Americano,20000,4,Yogyakarta,15,Cheap
+Americano,20000,2,Tangerang Selatan,5,Cheap
+Latte,35000,4,Jakarta,20,Standart
+Sandwich,45000,4,Bandung,0,Premium
+Americano,20000,1,Yogyakarta,15,Cheap
+Tea,15000,5,Bandung,0,Cheap
+Flat White,30000,4,Yogyakarta,10,Standart
+Macchiato,32000,5,Yogyakarta,10,Standart
+Tea,15000,4,Bandung,15,Cheap
+Mocha,40000,5,Bandung,10,Premium
+Mocha,40000,4,Bandung,20,Premium
+Americano,20000,3,Bekasi,5,Cheap
+Sandwich,45000,1,Bekasi,20,Premium
+Americano,20000,4,Bandung,5,Cheap
+Americano,20000,1,Bandung,0,Cheap
+Flat White,30000,5,Tangerang Selatan,20,Standart
+Espresso,25000,2,Tangerang Selatan,15,Cheap
+Cake,50000,1,Tangerang Selatan,20,Premium
+Tea,15000,1,Tangerang Selatan,20,Cheap
+Macchiato,32000,4,Bekasi,15,Standart
+Cake,50000,2,Yogyakarta,15,Premium
+Mocha,40000,4,Bandung,5,Premium
+Macchiato,32000,3,Jakarta,0,Standart
+Cappuccino,30000,4,Tangerang Selatan,20,Standart
+Sandwich,45000,1,Yogyakarta,10,Premium
+Cake,50000,1,Yogyakarta,10,Premium
+Cappuccino,30000,4,Tangerang Selatan,20,Standart
+Mocha,40000,4,Jakarta,15,Premium
+Tea,15000,3,Bandung,10,Cheap
+Mocha,40000,4,Tangerang Selatan,0,Premium
+Tea,15000,1,Jakarta,5,Cheap
+Flat White,30000,2,Jakarta,5,Standart
+Espresso,25000,1,Jakarta,5,Cheap
+Espresso,25000,5,Bandung,10,Cheap
+Cappuccino,30000,4,Bandung,15,Standart
+Cake,50000,2,Jakarta,0,Premium
+Flat White,30000,2,Bekasi,20,Standart
+Latte,35000,2,Yogyakarta,5,Standart
+Cake,50000,1,Jakarta,15,Premium
+Macchiato,32000,4,Yogyakarta,20,Standart
+Cake,50000,2,Jakarta,5,Premium
+Cake,50000,1,Bekasi,10,Premium
+Flat White,30000,5,Jakarta,15,Standart
+Latte,35000,5,Bekasi,5,Standart
+Espresso,25000,4,Bekasi,15,Cheap
+Macchiato,32000,3,Jakarta,0,Standart
+Cappuccino,30000,4,Tangerang Selatan,10,Standart
+Mocha,40000,5,Yogyakarta,15,Premium
+Tea,15000,4,Tangerang Selatan,10,Cheap
+Flat White,30000,2,Bekasi,10,Standart
+Tea,15000,2,Bekasi,5,Cheap
+Cake,50000,4,Yogyakarta,20,Premium
+Tea,15000,3,Jakarta,5,Cheap
+Americano,20000,3,Tangerang Selatan,20,Cheap
+Mocha,40000,5,Bekasi,0,Premium
+Sandwich,45000,1,Bekasi,10,Premium
+Latte,35000,2,Bandung,5,Standart
+Sandwich,45000,2,Tangerang Selatan,5,Premium
+Tea,15000,4,Tangerang Selatan,20,Cheap
+Mocha,40000,2,Jakarta,10,Premium
+Mocha,40000,5,Bandung,10,Premium
+Sandwich,45000,5,Tangerang Selatan,10,Premium
+Sandwich,45000,3,Tangerang Selatan,20,Premium
+Mocha,40000,3,Tangerang Selatan,5,Premium
+Latte,35000,2,Bandung,0,Standart
+Sandwich,45000,2,Jakarta,10,Premium
+Tea,15000,3,Bandung,20,Cheap
+Cake,50000,3,Yogyakarta,15,Premium
+Mocha,40000,2,Bandung,20,Premium
+Mocha,40000,1,Bandung,10,Premium
+Cappuccino,30000,3,Yogyakarta,0,Standart
+Sandwich,45000,3,Jakarta,20,Premium
+Tea,15000,1,Bandung,15,Cheap
+Mocha,40000,4,Yogyakarta,10,Premium
+Flat White,30000,2,Tangerang Selatan,0,Standart
+Tea,15000,1,Bekasi,5,Cheap
+Tea,15000,1,Tangerang Selatan,15,Cheap
+Cappuccino,30000,2,Jakarta,0,Standart
+Latte,35000,2,Bekasi,10,Standart
+Macchiato,32000,5,Yogyakarta,20,Standart
+Americano,20000,5,Yogyakarta,5,Cheap
+Tea,15000,3,Tangerang Selatan,20,Cheap
+Mocha,40000,5,Tangerang Selatan,15,Premium
+Cake,50000,1,Jakarta,20,Premium
+Mocha,40000,1,Bandung,5,Premium
+Cappuccino,30000,5,Bandung,10,Standart
+Espresso,25000,4,Bandung,5,Cheap
+Tea,15000,3,Yogyakarta,5,Cheap
+Mocha,40000,3,Bandung,15,Premium
+Latte,35000,2,Tangerang Selatan,5,Standart
+Americano,20000,4,Yogyakarta,0,Cheap
+Americano,20000,2,Yogyakarta,5,Cheap
+Latte,35000,1,Bandung,0,Standart
+Cake,50000,5,Bekasi,0,Premium
+Latte,35000,4,Tangerang Selatan,0,Standart
+Macchiato,32000,3,Bekasi,10,Standart
+Tea,15000,4,Yogyakarta,5,Cheap
+Espresso,25000,4,Yogyakarta,20,Cheap
+Mocha,40000,1,Yogyakarta,15,Premium
+Cake,50000,5,Bandung,20,Premium
+Cake,50000,1,Bekasi,10,Premium
+Sandwich,45000,4,Tangerang Selatan,0,Premium
+Cake,50000,4,Bandung,0,Premium
+Latte,35000,4,Tangerang Selatan,5,Standart
+Flat White,30000,3,Tangerang Selatan,0,Standart
+Cappuccino,30000,3,Jakarta,10,Standart
+Mocha,40000,4,Tangerang Selatan,0,Premium
+Tea,15000,1,Jakarta,0,Cheap
+Flat White,30000,1,Bekasi,0,Standart
+Espresso,25000,5,Yogyakarta,20,Cheap
+Espresso,25000,2,Tangerang Selatan,10,Cheap
+Cake,50000,4,Bekasi,0,Premium
+Espresso,25000,2,Tangerang Selatan,15,Cheap
+Cappuccino,30000,3,Yogyakarta,10,Standart
+Latte,35000,1,Tangerang Selatan,15,Standart
+Americano,20000,2,Yogyakarta,20,Cheap
+Espresso,25000,5,Yogyakarta,10,Cheap
+Americano,20000,1,Jakarta,15,Cheap
+Cappuccino,30000,4,Jakarta,5,Standart
+Mocha,40000,4,Yogyakarta,15,Premium
+Americano,20000,4,Tangerang Selatan,5,Cheap
+Macchiato,32000,2,Bandung,15,Standart
+Cappuccino,30000,1,Yogyakarta,5,Standart
+Flat White,30000,5,Tangerang Selatan,0,Standart
+Mocha,40000,3,Jakarta,10,Premium
+Tea,15000,2,Yogyakarta,10,Cheap
+Tea,15000,3,Yogyakarta,15,Cheap
+Sandwich,45000,4,Yogyakarta,20,Premium
+Americano,20000,2,Bekasi,5,Cheap
+Americano,20000,4,Tangerang Selatan,0,Cheap
+Tea,15000,4,Bekasi,10,Cheap
+Tea,15000,1,Bandung,0,Cheap
+Cake,50000,3,Yogyakarta,15,Premium
+Latte,35000,5,Tangerang Selatan,15,Standart
+Cappuccino,30000,4,Jakarta,0,Standart
+Latte,35000,4,Bandung,15,Standart
+Cake,50000,4,Bekasi,10,Premium
+Flat White,30000,5,Jakarta,5,Standart
+Tea,15000,5,Bekasi,10,Cheap
+Latte,35000,2,Yogyakarta,10,Standart
+Americano,20000,1,Bekasi,0,Cheap
+Latte,35000,4,Jakarta,10,Standart
+Espresso,25000,1,Bekasi,10,Cheap
+Mocha,40000,3,Jakarta,20,Premium
+Cappuccino,30000,2,Tangerang Selatan,0,Standart
+Cake,50000,2,Tangerang Selatan,0,Premium
+Latte,35000,5,Bandung,5,Standart
+Americano,20000,4,Yogyakarta,10,Cheap
+Americano,20000,4,Bandung,20,Cheap
+Tea,15000,3,Bekasi,20,Cheap
+Tea,15000,3,Jakarta,15,Cheap
+Cappuccino,30000,1,Yogyakarta,10,Standart
+Cake,50000,3,Bekasi,20,Premium
+Mocha,40000,4,Tangerang Selatan,10,Premium
+Macchiato,32000,4,Bandung,15,Standart
+Macchiato,32000,5,Bandung,5,Standart
+Mocha,40000,3,Yogyakarta,15,Premium
+Mocha,40000,1,Tangerang Selatan,20,Premium
+Cake,50000,4,Jakarta,20,Premium
+Cake,50000,3,Bandung,10,Premium
+Cake,50000,3,Bandung,10,Premium
+Latte,35000,1,Bandung,15,Standart
+Espresso,25000,5,Tangerang Selatan,15,Cheap
+Latte,35000,3,Bandung,5,Standart
+Cappuccino,30000,2,Tangerang Selatan,10,Standart
+Flat White,30000,5,Yogyakarta,10,Standart
+Cappuccino,30000,3,Bekasi,10,Standart
+Flat White,30000,1,Bekasi,5,Standart
+Cappuccino,30000,2,Jakarta,10,Standart
+Sandwich,45000,3,Tangerang Selatan,20,Premium
+Espresso,25000,3,Tangerang Selatan,0,Cheap
+Tea,15000,3,Jakarta,20,Cheap
+Cake,50000,4,Bekasi,20,Premium
+Latte,35000,2,Bekasi,15,Standart
+Cake,50000,5,Jakarta,0,Premium
+Americano,20000,1,Yogyakarta,0,Cheap
+Mocha,40000,4,Tangerang Selatan,10,Premium
+Espresso,25000,1,Bandung,10,Cheap
+Latte,35000,1,Tangerang Selatan,15,Standart
+Cappuccino,30000,4,Yogyakarta,5,Standart
+Sandwich,45000,4,Bekasi,0,Premium
+Macchiato,32000,1,Bandung,5,Standart
+Macchiato,32000,3,Yogyakarta,5,Standart
+Americano,20000,4,Bekasi,15,Cheap
+Flat White,30000,1,Bandung,15,Standart
+Sandwich,45000,3,Bekasi,20,Premium
+Mocha,40000,2,Tangerang Selatan,20,Premium
+Latte,35000,2,Tangerang Selatan,20,Standart
+Espresso,25000,1,Yogyakarta,10,Cheap
+Cappuccino,30000,5,Bandung,15,Standart
+Sandwich,45000,2,Jakarta,15,Premium
+Americano,20000,3,Bandung,5,Cheap
+Espresso,25000,3,Yogyakarta,0,Cheap
+Sandwich,45000,3,Bandung,10,Premium
+Espresso,25000,2,Jakarta,5,Cheap
+Americano,20000,5,Bekasi,0,Cheap
+Cappuccino,30000,3,Jakarta,20,Standart
+Macchiato,32000,5,Bandung,15,Standart
+Tea,15000,4,Jakarta,15,Cheap
+Cake,50000,1,Yogyakarta,0,Premium
+Americano,20000,5,Yogyakarta,5,Cheap
+Mocha,40000,4,Yogyakarta,10,Premium
+Espresso,25000,4,Jakarta,20,Cheap
+Latte,35000,4,Tangerang Selatan,15,Standart
+Latte,35000,1,Tangerang Selatan,5,Standart
+Cappuccino,30000,1,Yogyakarta,5,Standart
+Cake,50000,5,Bekasi,0,Premium
+Macchiato,32000,5,Bekasi,0,Standart
+Tea,15000,5,Bekasi,5,Cheap
+Latte,35000,1,Tangerang Selatan,15,Standart
+Americano,20000,4,Yogyakarta,10,Cheap
+Macchiato,32000,3,Bandung,20,Standart
+Macchiato,32000,1,Tangerang Selatan,20,Standart
+Flat White,30000,3,Tangerang Selatan,15,Standart
+Tea,15000,1,Bandung,10,Cheap
+Latte,35000,4,Jakarta,0,Standart
+Cappuccino,30000,5,Bekasi,10,Standart
+Sandwich,45000,5,Yogyakarta,20,Premium
+Macchiato,32000,3,Jakarta,20,Standart
+Espresso,25000,3,Tangerang Selatan,0,Cheap
+Flat White,30000,1,Bekasi,5,Standart
+Americano,20000,2,Yogyakarta,20,Cheap
+Americano,20000,1,Tangerang Selatan,5,Cheap
+Flat White,30000,1,Yogyakarta,15,Standart
+Americano,20000,4,Yogyakarta,10,Cheap
+Cake,50000,5,Yogyakarta,5,Premium
+Mocha,40000,1,Yogyakarta,10,Premium
+Mocha,40000,3,Bekasi,15,Premium
+Cappuccino,30000,2,Jakarta,10,Standart
+Latte,35000,2,Tangerang Selatan,5,Standart
+Latte,35000,5,Jakarta,10,Standart
+Macchiato,32000,4,Tangerang Selatan,15,Standart
+Flat White,30000,3,Bandung,10,Standart
+Cake,50000,1,Yogyakarta,20,Premium
+Cappuccino,30000,5,Bandung,15,Standart
+Mocha,40000,4,Jakarta,0,Premium
+Tea,15000,5,Tangerang Selatan,0,Cheap
+Mocha,40000,2,Tangerang Selatan,0,Premium
+Flat White,30000,4,Jakarta,20,Standart
+Cake,50000,4,Bekasi,10,Premium
+Espresso,25000,2,Bekasi,10,Cheap
+Espresso,25000,1,Yogyakarta,0,Cheap
+Americano,20000,2,Bekasi,20,Cheap
+Flat White,30000,1,Bekasi,0,Standart
+Macchiato,32000,2,Tangerang Selatan,15,Standart
+Sandwich,45000,2,Tangerang Selatan,10,Premium
+Flat White,30000,1,Yogyakarta,15,Standart
+Macchiato,32000,1,Jakarta,20,Standart
+Flat White,30000,5,Jakarta,0,Standart
+Macchiato,32000,4,Yogyakarta,10,Standart
+Macchiato,32000,1,Jakarta,0,Standart
+Cake,50000,4,Bandung,10,Premium
+Latte,35000,4,Bekasi,15,Standart
+Macchiato,32000,5,Bandung,5,Standart
+Latte,35000,4,Yogyakarta,20,Standart
+Americano,20000,3,Bekasi,10,Cheap
+Sandwich,45000,1,Jakarta,15,Premium
+Americano,20000,3,Yogyakarta,15,Cheap
+Americano,20000,1,Bandung,10,Cheap
+Americano,20000,2,Bekasi,15,Cheap
+Latte,35000,2,Bandung,20,Standart
+Tea,15000,5,Tangerang Selatan,0,Cheap
+Cake,50000,5,Tangerang Selatan,5,Premium
+Cappuccino,30000,4,Bekasi,5,Standart
+Tea,15000,3,Tangerang Selatan,15,Cheap
+Espresso,25000,3,Yogyakarta,0,Cheap
+Mocha,40000,4,Jakarta,0,Premium
+Espresso,25000,3,Jakarta,20,Cheap
+Latte,35000,5,Jakarta,5,Standart
+Macchiato,32000,4,Yogyakarta,10,Standart
+Espresso,25000,4,Yogyakarta,20,Cheap
+Flat White,30000,5,Bandung,10,Standart
+Cappuccino,30000,1,Yogyakarta,20,Standart
+Flat White,30000,1,Jakarta,20,Standart
+Espresso,25000,2,Bandung,10,Cheap
+Tea,15000,5,Tangerang Selatan,0,Cheap
+Cappuccino,30000,3,Yogyakarta,20,Standart
+Macchiato,32000,4,Bekasi,10,Standart
+Espresso,25000,3,Yogyakarta,15,Cheap
+Latte,35000,5,Bekasi,5,Standart
+Mocha,40000,3,Tangerang Selatan,5,Premium
+Cappuccino,30000,3,Yogyakarta,20,Standart
+Cappuccino,30000,3,Yogyakarta,20,Standart
+Cappuccino,30000,5,Tangerang Selatan,15,Standart
+Mocha,40000,5,Jakarta,20,Premium
+Cappuccino,30000,5,Bekasi,5,Standart
+Sandwich,45000,3,Tangerang Selatan,5,Premium
+Mocha,40000,2,Bekasi,10,Premium
+Tea,15000,2,Bekasi,15,Cheap
+Cappuccino,30000,1,Bandung,10,Standart
+Sandwich,45000,5,Jakarta,10,Premium
+Flat White,30000,5,Jakarta,0,Standart
+Macchiato,32000,2,Yogyakarta,20,Standart
+Cake,50000,2,Bandung,15,Premium
+Macchiato,32000,3,Jakarta,5,Standart
+Tea,15000,5,Bandung,20,Cheap
+Americano,20000,5,Tangerang Selatan,10,Cheap
+Tea,15000,2,Bekasi,0,Cheap
+Tea,15000,4,Yogyakarta,10,Cheap
+Sandwich,45000,5,Tangerang Selatan,0,Premium
+Americano,20000,5,Bandung,10,Cheap
+Espresso,25000,4,Bekasi,15,Cheap
+Latte,35000,5,Yogyakarta,0,Standart
+Latte,35000,2,Bekasi,0,Standart
+Sandwich,45000,2,Tangerang Selatan,5,Premium
+Americano,20000,4,Jakarta,10,Cheap
+Macchiato,32000,1,Jakarta,10,Standart
+Flat White,30000,2,Yogyakarta,10,Standart
+Flat White,30000,2,Jakarta,15,Standart
+Latte,35000,3,Bekasi,20,Standart
+Espresso,25000,3,Bandung,10,Cheap
+Tea,15000,4,Bandung,10,Cheap
+Latte,35000,1,Jakarta,20,Standart
+Cappuccino,30000,5,Bandung,15,Standart
+Macchiato,32000,1,Yogyakarta,15,Standart
+Mocha,40000,1,Bandung,10,Premium
+Macchiato,32000,5,Bandung,5,Standart
+Latte,35000,4,Jakarta,0,Standart
+Espresso,25000,5,Yogyakarta,20,Cheap
+Cappuccino,30000,3,Bandung,10,Standart
+Cake,50000,3,Jakarta,10,Premium
+Macchiato,32000,2,Yogyakarta,15,Standart
+Sandwich,45000,3,Jakarta,10,Premium
+Sandwich,45000,5,Yogyakarta,15,Premium
+Espresso,25000,4,Yogyakarta,5,Cheap
+Macchiato,32000,3,Jakarta,5,Standart
+Flat White,30000,1,Jakarta,5,Standart
+Latte,35000,5,Bandung,15,Standart
+Espresso,25000,3,Bandung,5,Cheap
+Cappuccino,30000,4,Bekasi,5,Standart
+Cappuccino,30000,2,Tangerang Selatan,10,Standart
+Espresso,25000,3,Tangerang Selatan,5,Cheap
+Americano,20000,1,Jakarta,15,Cheap
+Sandwich,45000,4,Bekasi,10,Premium
+Mocha,40000,1,Tangerang Selatan,20,Premium
+Mocha,40000,3,Bandung,10,Premium
+Mocha,40000,1,Bekasi,5,Premium
+Macchiato,32000,4,Tangerang Selatan,20,Standart
+Cappuccino,30000,4,Bekasi,15,Standart
+Flat White,30000,5,Tangerang Selatan,5,Standart
+Macchiato,32000,1,Jakarta,15,Standart
+Cappuccino,30000,5,Yogyakarta,20,Standart
+Latte,35000,1,Bekasi,15,Standart
+Mocha,40000,4,Bekasi,15,Premium
+Cappuccino,30000,4,Tangerang Selatan,20,Standart
+Espresso,25000,3,Tangerang Selatan,0,Cheap
+Mocha,40000,1,Tangerang Selatan,0,Premium
+Flat White,30000,5,Tangerang Selatan,10,Standart
+Espresso,25000,2,Bandung,10,Cheap
+Espresso,25000,2,Tangerang Selatan,10,Cheap
+Flat White,30000,3,Bandung,20,Standart
+Espresso,25000,5,Yogyakarta,10,Cheap
+Flat White,30000,3,Tangerang Selatan,5,Standart
+Cake,50000,2,Jakarta,5,Premium
+Macchiato,32000,3,Bekasi,10,Standart
+Americano,20000,1,Bekasi,5,Cheap
+Tea,15000,5,Bandung,20,Cheap
+Latte,35000,3,Yogyakarta,5,Standart
+Americano,20000,5,Tangerang Selatan,15,Cheap
+Americano,20000,1,Tangerang Selatan,10,Cheap
+Tea,15000,2,Jakarta,20,Cheap
+Latte,35000,3,Tangerang Selatan,20,Standart
+Latte,35000,5,Bekasi,20,Standart
+Mocha,40000,2,Bekasi,10,Premium
+Flat White,30000,5,Bandung,20,Standart
+Americano,20000,2,Jakarta,5,Cheap
+Espresso,25000,3,Tangerang Selatan,0,Cheap
+Flat White,30000,4,Yogyakarta,20,Standart
+Cake,50000,1,Bandung,15,Premium
+Macchiato,32000,4,Bekasi,20,Standart
+Macchiato,32000,5,Tangerang Selatan,0,Standart
+Flat White,30000,1,Bandung,15,Standart
+Sandwich,45000,3,Tangerang Selatan,15,Premium
+Cake,50000,2,Yogyakarta,15,Premium
+Sandwich,45000,1,Tangerang Selatan,0,Premium
+Cappuccino,30000,3,Yogyakarta,10,Standart
+Flat White,30000,2,Bandung,20,Standart
+Mocha,40000,1,Yogyakarta,20,Premium
+Sandwich,45000,3,Bandung,15,Premium
+Cake,50000,5,Bekasi,20,Premium
+Cappuccino,30000,5,Yogyakarta,0,Standart
+Cappuccino,30000,5,Bandung,15,Standart
+Cake,50000,1,Bekasi,10,Premium
+Espresso,25000,5,Jakarta,5,Cheap
+Cake,50000,4,Bandung,15,Premium
+Tea,15000,5,Jakarta,5,Cheap
+Tea,15000,2,Bekasi,5,Cheap
+Mocha,40000,4,Tangerang Selatan,15,Premium
+Cappuccino,30000,4,Jakarta,15,Standart
+Tea,15000,2,Tangerang Selatan,0,Cheap
+Cappuccino,30000,3,Yogyakarta,20,Standart
+Macchiato,32000,2,Bekasi,20,Standart
+Sandwich,45000,1,Yogyakarta,20,Premium
+Tea,15000,1,Bandung,15,Cheap
+Americano,20000,2,Tangerang Selatan,0,Cheap
+Mocha,40000,4,Jakarta,10,Premium
+Americano,20000,2,Tangerang Selatan,20,Cheap
+Flat White,30000,2,Yogyakarta,0,Standart
+Sandwich,45000,4,Tangerang Selatan,0,Premium
+Tea,15000,1,Bekasi,0,Cheap
+Sandwich,45000,4,Tangerang Selatan,15,Premium
+Cake,50000,3,Bandung,10,Premium
+Mocha,40000,4,Jakarta,0,Premium
+Mocha,40000,5,Tangerang Selatan,10,Premium
+Macchiato,32000,2,Jakarta,0,Standart
+Macchiato,32000,3,Bekasi,20,Standart
+Espresso,25000,5,Tangerang Selatan,20,Cheap
+Flat White,30000,5,Bandung,0,Standart
+Macchiato,32000,5,Jakarta,0,Standart
+Mocha,40000,5,Yogyakarta,15,Premium
+Latte,35000,2,Yogyakarta,0,Standart
+Flat White,30000,3,Tangerang Selatan,5,Standart
+Cappuccino,30000,2,Bekasi,15,Standart
+Macchiato,32000,5,Yogyakarta,5,Standart
+Espresso,25000,2,Jakarta,20,Cheap
+Tea,15000,5,Bekasi,5,Cheap
+Cake,50000,5,Bandung,10,Premium
+Cake,50000,3,Bekasi,20,Premium
+Cake,50000,3,Tangerang Selatan,5,Premium
+Sandwich,45000,5,Bekasi,5,Premium
+Cake,50000,3,Tangerang Selatan,0,Premium
+Flat White,30000,3,Jakarta,15,Standart
+Macchiato,32000,5,Jakarta,10,Standart
+Cake,50000,4,Jakarta,0,Premium
+Cake,50000,2,Yogyakarta,15,Premium
+Tea,15000,2,Yogyakarta,5,Cheap
+Macchiato,32000,2,Yogyakarta,5,Standart
+Espresso,25000,5,Bandung,10,Cheap
+Americano,20000,1,Jakarta,0,Cheap
+Macchiato,32000,2,Bekasi,20,Standart
+Macchiato,32000,5,Bandung,0,Standart
+Espresso,25000,2,Tangerang Selatan,15,Cheap
+Sandwich,45000,3,Bandung,10,Premium
+Sandwich,45000,4,Tangerang Selatan,5,Premium
+Tea,15000,5,Bandung,10,Cheap
+Flat White,30000,3,Yogyakarta,10,Standart
+Americano,20000,2,Tangerang Selatan,20,Cheap
+Mocha,40000,2,Yogyakarta,10,Premium
+Americano,20000,4,Bekasi,5,Cheap
+Flat White,30000,5,Tangerang Selatan,0,Standart
+Latte,35000,5,Bekasi,0,Standart
+Macchiato,32000,4,Yogyakarta,20,Standart
+Mocha,40000,1,Bandung,20,Premium
+Flat White,30000,4,Jakarta,15,Standart
+Tea,15000,2,Bekasi,20,Cheap
+Mocha,40000,5,Yogyakarta,10,Premium
+Cappuccino,30000,1,Bekasi,10,Standart
+Americano,20000,2,Yogyakarta,10,Cheap
+Americano,20000,2,Yogyakarta,0,Cheap
+Macchiato,32000,3,Jakarta,10,Standart
+Cappuccino,30000,1,Jakarta,20,Standart
+Macchiato,32000,4,Bandung,0,Standart
+Mocha,40000,3,Bandung,0,Premium
+Latte,35000,5,Jakarta,10,Standart
+Espresso,25000,2,Yogyakarta,20,Cheap
+Espresso,25000,4,Bandung,20,Cheap
+Mocha,40000,1,Bandung,0,Premium
+Cake,50000,5,Bekasi,20,Premium
+Mocha,40000,4,Bekasi,5,Premium
+Sandwich,45000,4,Yogyakarta,15,Premium
+Tea,15000,3,Yogyakarta,20,Cheap
+Flat White,30000,2,Jakarta,0,Standart
+Cappuccino,30000,1,Bekasi,15,Standart
+Cake,50000,2,Bekasi,15,Premium
+Macchiato,32000,4,Yogyakarta,15,Standart
+Latte,35000,4,Bekasi,15,Standart
+Cappuccino,30000,2,Jakarta,5,Standart
+Americano,20000,1,Bekasi,20,Cheap
+Americano,20000,4,Tangerang Selatan,0,Cheap
+Mocha,40000,5,Bekasi,10,Premium
+Mocha,40000,3,Jakarta,15,Premium
+Espresso,25000,1,Bandung,15,Cheap
+Cappuccino,30000,4,Bekasi,0,Standart
+Mocha,40000,1,Yogyakarta,15,Premium
+Flat White,30000,5,Bekasi,5,Standart
+Cappuccino,30000,4,Bandung,0,Standart
+Cake,50000,3,Tangerang Selatan,10,Premium
+Tea,15000,5,Yogyakarta,0,Cheap
+Americano,20000,5,Bandung,0,Cheap
+Tea,15000,5,Yogyakarta,20,Cheap
+Latte,35000,5,Bekasi,5,Standart
+Sandwich,45000,5,Jakarta,15,Premium
+Sandwich,45000,2,Yogyakarta,5,Premium
+Sandwich,45000,4,Bekasi,15,Premium
+Cake,50000,4,Bandung,5,Premium
+Tea,15000,1,Yogyakarta,5,Cheap
+Sandwich,45000,4,Bandung,0,Premium
+Espresso,25000,5,Yogyakarta,15,Cheap
+Espresso,25000,4,Bekasi,20,Cheap
+Americano,20000,5,Jakarta,20,Cheap
+Macchiato,32000,3,Jakarta,0,Standart
+Sandwich,45000,1,Jakarta,5,Premium
+Espresso,25000,3,Tangerang Selatan,0,Cheap
+Cappuccino,30000,4,Bandung,5,Standart
+Tea,15000,4,Tangerang Selatan,10,Cheap
+Sandwich,45000,2,Jakarta,0,Premium
+Latte,35000,2,Bekasi,5,Standart
+Sandwich,45000,2,Tangerang Selatan,20,Premium
+Espresso,25000,3,Jakarta,5,Cheap
+Macchiato,32000,5,Yogyakarta,5,Standart
+Americano,20000,4,Bandung,5,Cheap
+Mocha,40000,2,Bandung,5,Premium
+Macchiato,32000,5,Jakarta,20,Standart
+Americano,20000,1,Bandung,20,Cheap
+Espresso,25000,4,Yogyakarta,0,Cheap
+Americano,20000,1,Jakarta,0,Cheap
+Americano,20000,5,Tangerang Selatan,20,Cheap
+Cappuccino,30000,5,Jakarta,5,Standart
+Cake,50000,3,Bandung,0,Premium
+Flat White,30000,2,Yogyakarta,10,Standart
+Sandwich,45000,2,Bandung,0,Premium
+Mocha,40000,1,Bekasi,10,Premium
+Cappuccino,30000,4,Yogyakarta,15,Standart
+Espresso,25000,3,Tangerang Selatan,10,Cheap
+Sandwich,45000,3,Tangerang Selatan,15,Premium
+Macchiato,32000,2,Tangerang Selatan,20,Standart
+Cappuccino,30000,5,Tangerang Selatan,5,Standart
+Americano,20000,3,Bandung,0,Cheap
+Tea,15000,1,Bandung,5,Cheap
+Macchiato,32000,5,Tangerang Selatan,5,Standart
+Macchiato,32000,2,Bandung,5,Standart
+Flat White,30000,1,Bandung,0,Standart
+Latte,35000,5,Bekasi,0,Standart
+Mocha,40000,4,Jakarta,10,Premium
+Cake,50000,1,Yogyakarta,0,Premium
+Cake,50000,5,Bandung,0,Premium
+Americano,20000,3,Tangerang Selatan,5,Cheap
+Americano,20000,2,Jakarta,5,Cheap
+Americano,20000,5,Tangerang Selatan,20,Cheap
+Macchiato,32000,2,Bandung,20,Standart
+Mocha,40000,4,Bekasi,20,Premium
+Flat White,30000,3,Yogyakarta,5,Standart
+Sandwich,45000,4,Bekasi,15,Premium
+Tea,15000,3,Jakarta,5,Cheap
+Flat White,30000,4,Bekasi,15,Standart
+Americano,20000,2,Yogyakarta,10,Cheap
+Sandwich,45000,5,Bekasi,5,Premium
+Mocha,40000,2,Tangerang Selatan,0,Premium
+Americano,20000,4,Bekasi,10,Cheap
+Tea,15000,5,Bandung,5,Cheap
+Mocha,40000,4,Bekasi,15,Premium
+Tea,15000,2,Tangerang Selatan,10,Cheap
+Cappuccino,30000,5,Bandung,5,Standart
+Sandwich,45000,1,Bandung,5,Premium
+Latte,35000,1,Jakarta,10,Standart
+Cappuccino,30000,2,Tangerang Selatan,5,Standart
+Espresso,25000,2,Bandung,0,Cheap
+Flat White,30000,1,Tangerang Selatan,5,Standart
+Tea,15000,4,Yogyakarta,15,Cheap
+Sandwich,45000,5,Jakarta,0,Premium
+Espresso,25000,5,Jakarta,15,Cheap
+Mocha,40000,1,Yogyakarta,15,Premium
+Cappuccino,30000,1,Tangerang Selatan,5,Standart
+Cappuccino,30000,2,Yogyakarta,15,Standart
+Sandwich,45000,3,Yogyakarta,15,Premium
+Macchiato,32000,1,Bekasi,10,Standart
+Tea,15000,5,Tangerang Selatan,0,Cheap
+Mocha,40000,1,Bandung,5,Premium
+Latte,35000,4,Jakarta,5,Standart
+Sandwich,45000,4,Tangerang Selatan,20,Premium
+Cappuccino,30000,1,Jakarta,5,Standart
+Flat White,30000,5,Tangerang Selatan,20,Standart
+Espresso,25000,2,Yogyakarta,0,Cheap
+Tea,15000,3,Yogyakarta,20,Cheap
+Mocha,40000,5,Jakarta,15,Premium
+Cappuccino,30000,3,Jakarta,5,Standart
+Cake,50000,2,Bandung,5,Premium
+Latte,35000,3,Tangerang Selatan,10,Standart
+Americano,20000,5,Yogyakarta,10,Cheap
+Flat White,30000,4,Yogyakarta,5,Standart
+Sandwich,45000,3,Jakarta,5,Premium
+Macchiato,32000,2,Jakarta,15,Standart
+Cake,50000,5,Bekasi,20,Premium
+Flat White,30000,1,Tangerang Selatan,20,Standart
+Tea,15000,4,Bekasi,10,Cheap
+Sandwich,45000,4,Bekasi,10,Premium
+Cake,50000,4,Bandung,0,Premium
+Mocha,40000,2,Yogyakarta,15,Premium
+Latte,35000,3,Jakarta,10,Standart
+Cappuccino,30000,4,Tangerang Selatan,0,Standart
+Latte,35000,1,Bekasi,15,Standart
+Tea,15000,3,Bekasi,10,Cheap
+Cappuccino,30000,1,Jakarta,5,Standart
+Tea,15000,5,Tangerang Selatan,15,Cheap
+Macchiato,32000,1,Yogyakarta,20,Standart
+Flat White,30000,5,Jakarta,0,Standart
+Cake,50000,3,Yogyakarta,15,Premium
+Mocha,40000,4,Jakarta,15,Premium
+Sandwich,45000,2,Jakarta,15,Premium
+Cappuccino,30000,4,Yogyakarta,15,Standart
+Mocha,40000,3,Bandung,20,Premium
+Cappuccino,30000,1,Tangerang Selatan,5,Standart
+Mocha,40000,4,Tangerang Selatan,20,Premium
+Latte,35000,3,Tangerang Selatan,20,Standart
+Tea,15000,5,Bandung,20,Cheap
+Tea,15000,1,Bandung,20,Cheap
+Espresso,25000,4,Bekasi,0,Cheap
+Macchiato,32000,3,Yogyakarta,10,Standart
+Macchiato,32000,5,Bekasi,20,Standart
+Flat White,30000,5,Bekasi,10,Standart
+Tea,15000,3,Bandung,5,Cheap
+Flat White,30000,3,Tangerang Selatan,5,Standart
+Cake,50000,2,Tangerang Selatan,5,Premium
+Mocha,40000,4,Tangerang Selatan,20,Premium
+Cake,50000,2,Jakarta,5,Premium
+Cappuccino,30000,5,Yogyakarta,0,Standart
+Americano,20000,4,Tangerang Selatan,10,Cheap
+Macchiato,32000,4,Jakarta,10,Standart
+Americano,20000,3,Bekasi,10,Cheap
+Macchiato,32000,4,Bandung,15,Standart
+Cake,50000,4,Tangerang Selatan,10,Premium
+Sandwich,45000,5,Tangerang Selatan,15,Premium
+Sandwich,45000,1,Tangerang Selatan,15,Premium
+Cake,50000,1,Yogyakarta,0,Premium
+Flat White,30000,2,Bandung,10,Standart
+Espresso,25000,5,Yogyakarta,20,Cheap

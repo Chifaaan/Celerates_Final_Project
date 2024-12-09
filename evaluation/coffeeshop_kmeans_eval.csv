@@ -1,0 +1,4 @@
+Method,Number of Features,Feature Type,Number of K,Silhouette_score
+KMeans Cluster,5,All Existed Feature,3,0.6792602884003722
+KMeans Cluster,3,Manual Selected Features,3,0.39313519620620035
+KMeans Cluster,2,Auto Selected Features,3,0.6795102516657692
