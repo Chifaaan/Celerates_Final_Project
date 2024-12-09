@@ -40,7 +40,7 @@ def chat(contexts, history, question):
     return result
 
 
-df = pd.read_csv("./coffeeshop_kmeans_clustered.csv")
+df = pd.read_csv("datasets/coffeeshop_kmeans_clustered.csv")
 contexts = df.to_string()  # Initialize contexts
 st.title("AI Chatbot Assistant")
 
