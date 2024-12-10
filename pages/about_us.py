@@ -10,30 +10,31 @@ st.set_page_config(
 
 columns_data = [
     {
-        "image": "images/sidungu.png",
-        "name": "Muhammad Nur Irfan",
+        "image": "images/ireng.jpg",
+        "name": "Muhammad 'Pannur' Nur Irfan",
         "description": "Politeknik Negeri Jakarta",
         "caption": "Tukang bersihin cache",
         "buttons": [
-            {"label": " ", "icon": ":material/nest_heat_link_gen_3:", "type": "secondary", "url":"https://instagram.com/pannuromon_"},
+            {"label": " ", "icon": ":material/nest_heat_link_gen_3:", "type": "secondary", "url":"https://instagram.com/chifaaanub"},
             {"label": " ", "icon": ":material/deployed_code:", "type": "secondary", "url":"https://github.com/Chifaaan"},
             {"label": " ", "icon": ":material/diversity_3:", "type": "secondary", "url":"https://www.linkedin.com/in/muhammad-nur-irfan/"}
         ]
     },
     {
-        "image": "images/sidungu.png",
-        "name": "John Doe",
-        "description": "University of Example",
+        "image": "images/friska.jfif",
+        "name": "Friska Cindi Claudia Simanjuntak ",
+        "description": "Universitas Sumatera Utara",
         "caption": "Tukang ngetik lorem ipsum",
         "buttons": [
-            {"label": " ", "icon": ":material/nest_heat_link_gen_3:", "type": "secondary","url":" "},
-            {"label": " ", "icon": ":material/deployed_code:", "type": "secondary","url":" "},
-            {"label": " ", "icon": ":material/diversity_3:", "type": "secondary","url":" "}
+            {"label": " ", "icon": ":material/nest_heat_link_gen_3:", "type": "secondary","url":"https://www.instagram.com/aihetmatcha?igsh=bXQ2MG53bng1aWI5"},
+            {"label": " ", "icon": ":material/diversity_3:", "type": "secondary","url":"www.linkedin.com/in/friskasimanjuntak"},
+            None
+            
         ]
     },
     {
-        "image": "images/sidungu.png",
-        "name": "John Doe",
+        "image": "images/demon.jpg",
+        "name": "M. Singgih Priadi Nugroho",
         "description": "University of Example",
         "caption": "Tukang makan cookies",
         "buttons": [
@@ -43,8 +44,8 @@ columns_data = [
         ]
     },
         {
-        "image": "images/sidungu.png",
-        "name": "John Doe",
+        "image": "images/GH.jpg",
+        "name": "Jonathan Matthew Fernaldy",
         "description": "University of Example",
         "caption": "Tukang mainan cloud",
         "buttons": [
@@ -65,18 +66,25 @@ st.subheader("Group 5 of Celerates's Data Science Track")
 cols = st.columns(len(columns_data))
 for idx, (col, data) in enumerate(zip(cols, columns_data)):
     with col:
-        card = col.container(height = 650)
-        card.image(data["image"], output_format="PNG", width=290)
-        card.html(f"<b style='font-size: 20px;'>{data['name']}</b>")
+        card = col.container(height=620)
+        img = card.container(height=350)
+        img.image(data["image"], output_format="PNG", use_container_width=True)
+        card.html(f"<b style='font-size: 25px;'>{data['name']}</b>")
         card.markdown(data["description"])
         card.caption(data["caption"])
-        ig, wa, gh = card.columns((1, 1, 1))
-        for i, (button, btn_data) in enumerate(zip([ig, wa, gh], data["buttons"])):
-            button.link_button(
-                label=btn_data["label"],
-                icon=btn_data["icon"],
-                type=btn_data["type"],
-                url=btn_data["url"],
-                use_container_width=True,
-            )
+
+        # Cek jika ada tombol untuk Card ini
+        if "buttons" in data and data["buttons"]:
+            ig, wa, gh = card.columns((1, 1, 1))
+            
+            # Buat tombol hanya jika data tombol tidak kosong
+            for button, btn_data in zip([ig, wa, gh], data["buttons"]):
+                if btn_data is not None:  # Perbaikan di sini
+                    button.link_button(
+                        label=btn_data["label"],
+                        icon=btn_data["icon"],
+                        type=btn_data["type"],
+                        url=btn_data["url"],
+                        use_container_width=True,
+                    )
 
