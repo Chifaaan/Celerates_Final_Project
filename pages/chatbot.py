@@ -10,7 +10,6 @@ st.set_page_config(
     page_icon="icons/smart_toy.svg")
 
 
-API_KEY = 'AIzaSyD239K0w2nWaF1XjkiJjvuKXUEijBgB8p8'
 def chat(contexts, history, question):
     llm = ChatGoogleGenerativeAI(
         model="gemini-1.5-flash",
@@ -42,6 +41,30 @@ def chat(contexts, history, question):
 
 df = pd.read_csv("datasets/coffeeshop_kmeans_clustered.csv")
 contexts = df.to_string()  # Initialize contexts
+
+
+# Sidebar for API Key Validation
+with st.sidebar:
+    st.sidebar.title("Configuration")
+    api_valid = False
+    # API Key Input
+    API_KEY = st.text_input("Enter your Gemini API Key", type="password")
+    if API_KEY:
+        try:
+            # Validate API key
+            llm = ChatGoogleGenerativeAI(
+                model="gemini-1.5-flash",
+                temperature=0.7,
+                api_key=API_KEY
+            )
+            llm.predict("Hello")
+            st.success("API key is valid.")
+            api_valid = True
+        except Exception as e:
+            st.error("Invalid API key. Please check and try again.")
+    else:
+        st.info("Enter your API key to proceed.")
+
 st.title("AI Chatbot Assistant")
 
 recommended_questions = [
@@ -62,24 +85,30 @@ else:
     history = ""  # Initialize empty history if no messages are available
 
 
-with st.sidebar:
-    st.markdown("Chatbot Assist")
+if api_valid:
+    with st.sidebar:
+        st.markdown("Chatbot Assist")
 
-    
-    with st.expander("Rekomendasi Pertanyaan"):
-        for i, question in enumerate(recommended_questions):
-            if st.button(f"{i + 1}. {question}", key=f"question_{i}"):
-                # Jika tombol ditekan, tambahkan pertanyaan ke chat input secara otomatis
-                st.session_state.messages.append({"role": "user", "content": question})
-                
-                
-                # Proses jawaban untuk pertanyaan yang dipilih
-                response = chat(contexts, history, question)
-                answer = response["answer"]
-                
-                st.session_state.messages.append({"role": "assistant", "content": answer})
-                
-    # Display chat messages from history on app rerun
+        
+        with st.expander("Rekomendasi Pertanyaan"):
+            for i, question in enumerate(recommended_questions):
+                if st.button(f"{i + 1}. {question}", key=f"question_{i}"):
+                    # Jika tombol ditekan, tambahkan pertanyaan ke chat input secara otomatis
+                    st.session_state.messages.append({"role": "user", "content": question})
+                    
+                    
+                    # Proses jawaban untuk pertanyaan yang dipilih
+                    response = chat(contexts, history, question)
+                    answer = response["answer"]
+                    
+                    st.session_state.messages.append({"role": "assistant", "content": answer})
+
+notif = st.chat_message("assistant")
+if not api_valid:
+    notif.write("Enter your API key to proceed.")
+else:
+    notif.write("Ask me anything! or You can see Recommended Questions in the sidebar")       
+# Display chat messages from history on app rerun
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
