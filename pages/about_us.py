@@ -33,7 +33,7 @@ columns_data = [
         ]
     },
     {
-        "image": "images/demon.jpg",
+        "image": "images/Demon.jpg",
         "name": "M. Singgih Priadi Nugroho",
         "description": "University of Example",
         "caption": "Tukang makan cookies",
