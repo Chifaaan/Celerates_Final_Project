@@ -68,7 +68,7 @@ for idx, (col, data) in enumerate(zip(cols, columns_data)):
     with col:
         card = col.container(height=620)
         img = card.container(height=350)
-        img.image(data["image"], output_format="PNG", width=300)
+        img.image(data["image"], output_format="PNG", width=280)
         card.html(f"<b style='font-size: 25px;'>{data['name']}</b>")
         card.markdown(data["description"])
         card.caption(data["caption"])
