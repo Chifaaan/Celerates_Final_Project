@@ -9,7 +9,7 @@ pages = {
 
     "Dashboard":
     [
-        st.Page("pages/dashboard.py", title="Dashboard", icon=":material/bar_chart_4_bars:"),
+        st.Page("pages/dashboard.py", title="Insight Dashboard", icon=":material/bar_chart_4_bars:"),
         st.Page("pages/ml_dashboard.py", title="Clustering Dashboard", icon=":material/settings_applications:")
     ],
     "Chatbot":

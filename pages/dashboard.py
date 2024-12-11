@@ -11,9 +11,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     page_icon="icons/smart_toy.svg")
 
-df = pd.read_csv("coffeeshop.csv")
+df = pd.read_csv("datasets/coffeeshop_kmeans_clustered.csv")
 
-
+# Preprocessing
 # Definisikan kategori produk
 category_mapping = {
     'Coffee': ['Mocha', 'Cappuccino', 'Americano', 'Macchiato', 'Latte', 'Espresso', 'Flat White'],
@@ -35,23 +35,11 @@ df['menu_category'] = df['product_name'].apply(assign_category)
 df['transaction_date'] = pd.to_datetime(df['transaction_date'], errors='coerce')
 
 # Fungsi untuk menetapkan periode berdasarkan tanggal transaksi
-def categorize_day(date):
-    day_of_month = date.day
-    if 1 <= day_of_month <= 10:
-        return 'Awal Bulan'
-    elif 11 <= day_of_month <= 20:
-        return 'Tengah Bulan'
-    else:
-        return 'Akhir Bulan'
-
-# Tambahkan kolom baru 'transaction_period'
-df['transaction_period'] = df['transaction_date'].apply(categorize_day)
-
-# Preprocessing
 df['transaction_date'] = pd.to_datetime(df['transaction_date'])
 df['month'] = df['transaction_date'].dt.month
 
-st.title("Sentiment Analysis Dashboard")
+st.title("Coffee Transaction Insight Dashboard")
+st.caption(" The Coffee Transaction Insight Dashboard provides a clear and concise overview of sales, products, operational and behavior performance. This dashboard isdesigned for easy data interpretation, the dashboard hopefully can helps management make informed decisions to improve business operations and enchance customer satisfaction")
 
 monthly_sales = df.groupby('month').agg(
 total_revenue=('unit_price', lambda x: (x * df.loc[x.index, 'total_qty']).sum())
@@ -62,10 +50,8 @@ monthly_qty = df.groupby('month').agg(
     total_qty=('total_qty', 'sum')
 ).reset_index()
 
-# Group data by transaction_period
-period_sales = df.groupby('transaction_period').agg(
-    total_qty=('total_qty', 'sum')
-).reset_index()
+cluster_count = df['cluster'].value_counts().reset_index()
+cluster_count.columns = ['Cluster', 'Jumlah']
 
 # Create the figure
 fig1 = go.Figure()
@@ -92,7 +78,6 @@ fig1.add_trace(go.Scatter(
 
 # Update layout
 fig1.update_layout(
-    title="Perbandingan Tren Pendapatan vs Jumlah Penjualan per Bulan",
     xaxis_title="Bulan",
     yaxis_title="Nilai",
     legend_title="Metode",
@@ -100,6 +85,7 @@ fig1.update_layout(
 )
 
 # Display the chart
+st.markdown("#### Comparison of Revenue Trends and Sales Amount per Month")
 st.plotly_chart(fig1)
 
 
@@ -115,24 +101,23 @@ with col1:
         category_sales, 
         names='menu_category', 
         values='total_qty', 
-        title="Menu Kategori Terlaris",
         labels={'menu_category': 'Category', 'total_qty': 'Jumlah Terjual'},
         color_discrete_sequence=[ '#714616','#F3CA7C', '#FFE7C9'],
     )
     fig_pie_chart.update_traces(textinfo='percent+label', textfont_size=18, marker=dict(line=dict(color='#000000',width=1)))
-
+    st.markdown("#### Best Selling Category Menu")
     st.plotly_chart(fig_pie_chart)
 
-    # Create a Pie Chart
+    # Plotly Pie Chart
     fig_pie_chart = px.pie(
-        period_sales, 
-        names='transaction_period', 
-        values='total_qty', 
-        title="Total Jumlah Penjualan Berdasarkan Periode Transaksi",
-        labels={'transaction_period': 'Periode Transaksi', 'total_qty': 'Jumlah Terjual'},
-        color_discrete_sequence=px.colors.sequential.Blues
+        cluster_count, 
+        names='Cluster', 
+        values='Jumlah',
+        color='Cluster',
+        color_discrete_sequence=['#207cb4', '#10346c', '#8CC1A9']
     )
     fig_pie_chart.update_traces(textinfo='percent+label', textfont_size=18, marker=dict(line=dict(color='#000000',width=1)))
+    st.markdown("#### Product Category Distribution by Price")
     st.plotly_chart(fig_pie_chart)
 
 
@@ -146,12 +131,12 @@ with col2:
         product_sales, 
         x='product_name', 
         y='total_sold', 
-        title="Penjualan Produk Terlaris", 
         labels={'product_name': 'Produk', 'total_sold': 'Jumlah Terjual'},
         text='total_sold',
         color='total_sold',
         color_continuous_scale='GnBu'
     )
+    st.markdown("#### Best Selling Product")
     st.plotly_chart(fig2)
 
         # 3. Visualisasi Pendapatan per Kota
@@ -163,14 +148,15 @@ with col2:
         city_revenue, 
         x='city', 
         y='total_revenue', 
-        title="Pendapatan per Kota", 
         labels={'city': 'Kota', 'total_revenue': 'Total Pendapatan'},
         text='total_revenue',
         color='total_revenue',
         color_continuous_scale='Blues'
     )
+    st.markdown("#### Total Revenue by City")
     st.plotly_chart(fig3)
 
 st.markdown("#### Coffee Transaction 2023 Dataset table")
 df = df.drop(['month'], axis=1)
 st.dataframe(df, use_container_width=True)
+
