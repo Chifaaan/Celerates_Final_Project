@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="Celerates's Group 5",
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="icons/smart_toy.svg")
+    page_icon="icons/coffee_ic.png")
 
 
 columns_data = [

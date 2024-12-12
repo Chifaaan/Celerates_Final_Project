@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Celerates's Group 9",
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="icons/smart_toy.svg")
+    page_icon="icons/coffee_ic.png")
 
 df = pd.read_csv("datasets/coffeeshop_kmeans_clustered.csv")
 

@@ -4,7 +4,7 @@ st.set_page_config(
     page_title="Celerates's Group 5",
     layout="centered",
     initial_sidebar_state="expanded",
-    page_icon="icons/smart_toy.svg")
+    page_icon="icons/coffee_ic.png")
 
 data_source = 'https://drive.google.com/drive/folders/1N9Trq6S8WoboCGiyi7dHoeXu4HrPo2YH'
 welcome = ''' This app proudly showcases our teamwork and the power of machine learning through a **Coffee Shop Transaction** dashboard. You can access the Dataset [here](%s)

@@ -22,4 +22,4 @@ pages = {
 
 pg = st.navigation(pages)
 pg.run()
-st.logo("icons/Logo.png", size="large")
+st.logo("icons/coffee_ic.png", size="large")

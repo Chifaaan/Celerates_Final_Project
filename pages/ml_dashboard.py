@@ -10,7 +10,7 @@ st.set_page_config(
     page_title="Celerates's Group 9",
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="icons/smart_toy.svg")
+    page_icon="icons/coffee_ic.png")
 
 
 tab1,tab2,tab3 = st.tabs(["Evaluation","Clustering","Custom Plot"])

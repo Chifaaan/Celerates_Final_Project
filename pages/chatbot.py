@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="Celerates's Group 9",
     layout="centered",
     initial_sidebar_state="expanded",
-    page_icon="icons/smart_toy.svg")
+    page_icon="icons/coffee_ic.png")
 
 
 def chat(contexts, history, question):
